@@ -1,0 +1,30 @@
+{
+  "name": "my-login-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.6.0",
+    "google-auth-library": "^6.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "loadash": "^1.0.0",
+    "mongoose": "^5.9.27",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^6.4.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
